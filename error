@@ -1,0 +1,21 @@
+hello 
+when i run your project i get this error 
+
+
+
+
+Undefined function or variable 'clusterpixel'.
+
+Error in BrainMain>pushbutton3_Callback (line 68)
+[center,U,obj_fcn] = clusterpixel(data,noclus);
+
+Error in gui_mainfcn (line 95)
+        feval(varargin{:});
+
+Error in BrainMain (line 17)
+    gui_mainfcn(gui_State, varargin{:});
+
+Error in
+matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)BrainMain('pushbutton3_Callback',hObject,eventdata,guidata(hObject))
+ 
+Error while evaluating UIControl Callback.
